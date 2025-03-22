@@ -1,1 +1,1 @@
-console.log('234234234')
+console.log("Hello, " + "Rich")
