@@ -1,1 +1,2 @@
-console.log("David"[0])
+let str = 'David'
+console.log(str[5 - 1])
