@@ -1,4 +1,2 @@
-let celcius = 10
-let farenheit = celcius * 1.8 + 32
-
-console.log(farenheit)
+let str="Rich"
+console.log(str[4-1])
