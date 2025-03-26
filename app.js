@@ -1,2 +1,5 @@
-let str="Rich"
-console.log(str[4-1])
+let subscribed = true
+
+if (subscribed === true) {
+    console.log('show the video')
+}
