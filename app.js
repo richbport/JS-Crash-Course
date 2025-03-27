@@ -3,7 +3,7 @@ let price = 40
 let difference = cash - price
 
 if (cash > price) {
-    console.log(`you paid extra - here's ${difference} dollars change`)
+    console.log(`you paid extra - here's ${difference} dollars in change`)
 }
 else if (cash === price) {
     console.log("you paid the exact amout - have a nice day!")
