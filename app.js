@@ -1,8 +1,5 @@
-let val = ""
+let subscribed = false
+let loggedIn = true
 
-if (val) {
-    console.log(!!val)
-}
-else {
-    console.log(!!val)
-}
+let str = subscribed || loggedIn ? 'show the video' : 'hide the video'
+console.log(str);
