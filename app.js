@@ -1,17 +1,7 @@
-/** Print out every character from the string:
- * "Frontend Simplified"
- * 
- * @example
- * 'F'
- * 'r'
- * 'o'
- * ...
- * 'e'
- * 'd'
- */
+/** DRY - Don't repeat yourself */
 
-const str = "Frontend Simplified"
-
-for (let i = 0; i < str.length; ++i) {
-    console.log(str[i])
+function welcomePersonToFES(firstName, lastName) {
+  console.log(`Welcome to FES, ${firstName} ${lastName}`);
 }
+welcomePersonToFES("Rich", "Port");
+welcomePersonToFES("John", "Doe");
