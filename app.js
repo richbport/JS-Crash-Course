@@ -2,7 +2,7 @@
 
 // Function definition
 function welcomePersonToFES(firstName, lastName) {
-  console.log(`Welcome to Frontend Simplified, ${firstName} ${lastName}`);
+  console.log(`Welcome to FES, ${firstName} ${lastName}`);
 }
 
 // Call the function
