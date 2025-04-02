@@ -1,9 +1,10 @@
 // DRY - Don't repeat yourself
 
 // Function definition
-function welcomePersonToFES() {
-  console.log(`Welcome to FES, Rich`);
+function welcomePersonToFES(firstName, lastName) {
+  console.log(`Welcome to Frontend Simplified, ${firstName} ${lastName}`);
 }
 
 // Call the function
-welcomePersonToFES();
+welcomePersonToFES("Rich", "Port");
+welcomePersonToFES("David", "Bragg");
