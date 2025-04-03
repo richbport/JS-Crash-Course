@@ -1,9 +1,7 @@
-// function convertCelciusToFahrenheit(celcius) {
-//   return celcius * 1.8 + 32;
-// }
+let item1 = 20
+let item2 = 30
+let item3 = 40
+let item4 = 50
+let item5 = 100
 
-const convertCelciusToFahrenheit = (celsius) => {
-    return celsius * 1.8 + 32;
-}
-
-console.log(convertCelciusToFahrenheit(0));
+let arr = []
