@@ -1,6 +1,9 @@
-function convertCelciusToFahrenheit(celcius) {
-  let fahrenheit = celcius * 1.8 + 32;
-  return fahrenheit;
+// function convertCelciusToFahrenheit(celcius) {
+//   return celcius * 1.8 + 32;
+// }
+
+const convertCelciusToFahrenheit = () => {
+    return "FES"
 }
 
-convertCelciusToFahrenheit(0)
+console.log(convertCelciusToFahrenheit(0));
