@@ -6,6 +6,6 @@ console.log(arr[0])
 // Last element of an array:
 console.log(arr[arr.length - 1])
 
-arr.push(200);
+arr.push(250);
 
 console.log(arr);
