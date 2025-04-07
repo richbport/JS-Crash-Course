@@ -1,9 +1,5 @@
-let grades = ['FAIL']
+let grades = ['A+', 'A', 'FAIL']
 
-let goodGrades = grades.filter(element => element !== 'FAIL')
-
-console.log(goodGrades)
-
-grades.push('B')
-
-console.log(grades)
+for (let i = 0; i < grades.length; ++i) {
+    console.log(i)
+}
