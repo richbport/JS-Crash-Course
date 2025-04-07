@@ -1,4 +1,4 @@
-let grades = ['FAIL', 'FAIL', 'B']
+let grades = ['FAIL', 'FAIL', 'B', 'A']
 
 let goodGrades = grades.filter(element => element !== 'FAIL')
 
