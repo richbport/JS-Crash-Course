@@ -1,9 +1,11 @@
-let dollars = [1, 5, 10, 3];
+let userFirstName = "Rich"
+let userLastName = "Port"
+let userDiscordId = "Rich Port#0001"
+let subscriptionStatus = "VIP"
 
-let cents = [];
-
-for (let i = 0; i < dollars.length; ++i) {
-  cents.push(dollars[i] * 100);
+let user = {
+  username: 'Rich',
+  email: 'rich@frontendsimplified.com',
+  subscriptionStatus: 'VIP',
+  discordId: 'Rich Port#0001',
 }
-
-console.log(cents)
