@@ -1,5 +1,7 @@
 let dollars = [1, 5, 10, 3];
 
-let cents = dollars.map((element) => element * 100);
+let cents = [];
 
-console.log(cents);
+for (let i = 0; i < dollars.length; ++i) {
+  console.log(dollars[i] * 100);
+}
