@@ -1,5 +1,5 @@
-let arr = [1, 4, 9, 16]
+let dollars = [1, 5, 10, 3];
 
-let newArray = arr.map(element => "dog")
+let cents = dollars.map((element) => element * 100);
 
-console.log(newArray)
+console.log(cents);
