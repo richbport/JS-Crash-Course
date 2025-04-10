@@ -27,13 +27,17 @@ let users = [
 
 function login(email, password) {
   for (let i = 0; i < users.length; ++i) {
+    return
     if (users[i].email === email) {
       console.log(users[i]);
       if (users[i].password === password) {
         console.log('log the user in- the details are correct')
       }
+      else {
+        console.log('password is incorrect - try again')
+      }
     }
   }
 }
 
-login("rich@frontendsimplified.com", "test123");
+login('rich@frontendsimplified.com', 'test123');
