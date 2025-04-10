@@ -1,7 +1,8 @@
-let user = [
+let users = [
   {
     username: "Rich",
     email: "rich@frontendsimplified.com",
+    password: "test123"
     subscriptionStatus: "VIP",
     discordId: "Rich Port#0001",
     lessonsCompleted: [0, 1],
@@ -15,8 +16,4 @@ let user = [
   },
 ];
 
-console.log(user.username[user.username.length - 1]);
-
-console.log(user.subscriptionStatus);
-
-console.log(user.lessonsCompleted.map((elem) => elem * 2));
+console.log(users[0].lessonsCompleted.map(elem => elem * 2))
