@@ -6,7 +6,7 @@ let user = {
   lessonsCompleted: [0, 1],
 }
 
-console.log(user.username[0]);
+console.log(user.username[user.username.length - 1]);
 
 console.log(user.subscriptionStatus)
 
