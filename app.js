@@ -27,17 +27,30 @@ let users = [
 
 function login(email, password) {
   for (let i = 0; i < users.length; ++i) {
-    return
     if (users[i].email === email) {
       console.log(users[i]);
       if (users[i].password === password) {
-        console.log('log the user in- the details are correct')
+        console.log("log the user in- the details are correct");
+      } else {
+        console.log("password is incorrect - try again");
       }
-      else {
-        console.log('password is incorrect - try again')
-      }
+      return;
     }
   }
+  console.log("could not find an email that matches");
 }
 
-login('rich@frontendsimplified.com', 'test123');
+login("rich@frontendsimplified.com", "test123");
+
+function register(
+  username,
+  email,
+  password,
+  subscriptionStatus,
+  discordId,
+  lessonsCompleted
+) {
+  console.log(email, password);
+}
+
+register("zen@frontendsimplified.com", "zen123");
