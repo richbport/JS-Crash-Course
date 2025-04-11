@@ -43,14 +43,29 @@ function login(email, password) {
 login("rich@frontendsimplified.com", "test123");
 
 function register(
-  username,
+  name,
   email,
   password,
   subscriptionStatus,
   discordId,
   lessonsCompleted
 ) {
-  console.log(email, password);
+  let user = {
+    username: name,
+    email: email,
+    password: password,
+    subscriptionStatus: subscriptionStatus,
+    discordId: discordId,
+    lessonsCompleted: lessonsCompleted,
+  };
+  console.log(user);
 }
 
-register("zen@frontendsimplified.com", "zen123");
+register(
+  "zen",
+  "zen@frontendsimplified.com",
+  "zen123",
+  "VIP",
+  "Zen#0001",
+  [0, 1]
+);
