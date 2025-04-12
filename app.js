@@ -50,6 +50,8 @@ function register(
   discordId,
   lessonsCompleted
 ) {
+
+
   let user = {
     username: name,
     email: email,
