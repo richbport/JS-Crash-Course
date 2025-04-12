@@ -58,14 +58,16 @@ function register(
     discordId: discordId,
     lessonsCompleted: lessonsCompleted,
   };
-  console.log(user);
+  users.push(user);
 }
 
-register(
-  "zen",
-  "zen@frontendsimplified.com",
-  "zen123",
-  "VIP",
-  "Zen#0001",
-  [0, 1]
-);
+register({
+  username: "zen",
+  email: "zen@frontendsimplified.com",
+  password: "zen123",
+  subscriptionStatus: "VIP",
+  discordId: "Zen#0001",
+  lessonsCompleted: [0, 1]
+});
+
+console.log(users)
