@@ -30,7 +30,7 @@ function login(email, password) {
     if (users[i].email === email) {
       console.log(users[i]);
       if (users[i].password === password) {
-        console.log("log the user in- the details are correct");
+        console.log("log the user in - the details are correct");
       } else {
         console.log("password is incorrect - try again");
       }
@@ -42,24 +42,7 @@ function login(email, password) {
 
 login("rich@frontendsimplified.com", "test123");
 
-function register(
-  name,
-  email,
-  password,
-  subscriptionStatus,
-  discordId,
-  lessonsCompleted
-) {
-
-
-  let user = {
-    username: name,
-    email: email,
-    password: password,
-    subscriptionStatus: subscriptionStatus,
-    discordId: discordId,
-    lessonsCompleted: lessonsCompleted,
-  };
+function register(user) {
   users.push(user);
 }
 
