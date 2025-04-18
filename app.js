@@ -4,4 +4,9 @@ function getSubscriptionStatus() {
   });
 }
 
-console.log(getSubscriptionStatus())
+getSubscriptionStatus().then(response => console.log())
+async function main() {
+  console.log(await getSubscriptionStatus())
+}
+
+main()
