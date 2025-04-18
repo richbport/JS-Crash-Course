@@ -8,7 +8,9 @@ function getSubscriptionStatus() {
   });
 }
 
-// getSubscriptionStatus().then((response) => console.log(response));
+function getVideo(subscriptionStatus) {
+  return new Promise()
+}
 
 async function main() {
   const status = (await getSubscriptionStatus());
